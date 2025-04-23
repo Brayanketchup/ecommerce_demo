@@ -1,0 +1,42 @@
+
+export const BottomsData = [
+    {
+        id: 11,
+        tittle: "Skinny Fit Jeans",
+        size: ["S", "M", "L"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, praesentium corporis omnis non rerum nobis eos dicta, laborum",
+        price: 59.99,
+        image: "/jeans1.png",
+        category: ["new arrival", "discount", "jeans"],
+        style: "Casual",
+        color: "Blue",
+        rating: 3.5,
+        discount: 20,
+    },
+    {
+        id: 12,
+        tittle: "Faded Skinny Jeans",
+        size: ["S", "M", "L"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, praesentium corporis omnis non rerum nobis eos dicta, laborum",
+        price: 49.99,
+        image: "/jeans2.png",
+        category: ["jeans", "top selling"],
+        style: "Formal",
+        color: "Black",
+        rating: 4.5,
+        discount: 0,
+    },
+    {
+        id: 13,
+        tittle: "Loose Fit Bermuda Shorts",
+        size: ["S", "M", "L"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, praesentium corporis omnis non rerum nobis eos dicta, laborum",
+        price: 29.99,
+        image: "/shorts1.png",
+        category: ["new arrival", "shorts", "top selling"],
+        style: "Casual",
+        color: "Blue",
+        rating: 4.0,
+        discount: 0,
+    }
+]
