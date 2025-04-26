@@ -5,7 +5,7 @@ export const Reviews = [
         itemID: 1,
         description: "Very stylish and breathable. Wore it out and got lots of compliments!",
         score: 4.0,
-        name: "Ava Martinez",
+        name: "Ava M.",
         date: "2023-12-01",
     },
     {
@@ -14,7 +14,7 @@ export const Reviews = [
         itemID: 1,
         description: "Super comfortable and looks just like the picture. Definitely recommend it!",
         score: 4.5,
-        name: "Emily Carter",
+        name: "Emily C.",
         date: "2023-10-12",
     },
     {
@@ -23,7 +23,7 @@ export const Reviews = [
         itemID: 2,
         description: "Perfect fit and the material is soft. Feels great for casual wear.",
         score: 4.0,
-        name: "Noah Kim",
+        name: "Noah K.",
         date: "2023-11-10",
     },
     {
@@ -32,7 +32,7 @@ export const Reviews = [
         itemID: 2,
         description: "Nice shirt but I expected the color to be a bit brighter. Still decent.",
         score: 3.0,
-        name: "Isabella Rodriguez",
+        name: "Isabella R.",
         date: "2023-11-18",
     },
     {
@@ -41,7 +41,7 @@ export const Reviews = [
         itemID: 2,
         description: "Quality exceeded my expectations. Will definitely buy again.",
         score: 5.0,
-        name: "Ethan Walker",
+        name: "Ethan W.",
         date: "2023-12-04",
     },
     {
@@ -50,7 +50,7 @@ export const Reviews = [
         itemID: 2,
         description: "Not bad overall. It shrank slightly after washing, so wash with care.",
         score: 3.0,
-        name: "Mia Thompson",
+        name: "Mia T.",
         date: "2023-12-11",
     },
     {
@@ -59,7 +59,7 @@ export const Reviews = [
         itemID: 2,
         description: "Stylish and fits well. Got compliments the first time I wore it.",
         score: 4.5,
-        name: "Jackson Rivera",
+        name: "Jackson R.",
         date: "2023-12-20",
     },
     {
@@ -68,7 +68,7 @@ export const Reviews = [
         itemID: 3,
         description: "Comfortable and affordable. Good for daily wear.",
         score: 4,
-        name: "Olivia Green",
+        name: "Olivia G.",
         date: "2024-01-05",
     },
     {
@@ -77,7 +77,7 @@ export const Reviews = [
         itemID: 3,
         description: "Material is a bit thin, but still wearable.",
         score: 3.5,
-        name: "Luca Harris",
+        name: "Luca H.",
         date: "2024-01-12",
     },
     {
@@ -86,7 +86,7 @@ export const Reviews = [
         itemID: 4,
         description: "The color fades quickly after a few washes.",
         score: 3,
-        name: "Zoe Bennett",
+        name: "Zoe B.",
         date: "2024-01-20",
     },
     {
@@ -95,7 +95,7 @@ export const Reviews = [
         itemID: 4,
         description: "Decent quality and fits nicely.",
         score: 4,
-        name: "James Allen",
+        name: "James A.",
         date: "2024-01-27",
     },
     {
@@ -104,7 +104,7 @@ export const Reviews = [
         itemID: 5,
         description: "Love the design and it fits true to size.",
         score: 4.5,
-        name: "Amelia Scott",
+        name: "Amelia S.",
         date: "2024-02-02",
     },
     {
@@ -113,7 +113,7 @@ export const Reviews = [
         itemID: 5,
         description: "Average shirt, nothing special.",
         score: 3,
-        name: "Henry Price",
+        name: "Henry P.",
         date: "2024-02-10",
     },
     {
@@ -122,7 +122,7 @@ export const Reviews = [
         itemID: 6,
         description: "Excellent fabric and comfortable all day long.",
         score: 4.5,
-        name: "Ella Adams",
+        name: "Ella A.",
         date: "2024-02-18",
     },
     {
@@ -131,7 +131,7 @@ export const Reviews = [
         itemID: 6,
         description: "Runs a little tight. Order one size up.",
         score: 3.5,
-        name: "Benjamin Ross",
+        name: "Benjamin R.",
         date: "2024-02-24",
     },
     {
@@ -140,7 +140,7 @@ export const Reviews = [
         itemID: 7,
         description: "Not impressed. Wouldn't buy again.",
         score: 2.5,
-        name: "Chloe Murphy",
+        name: "Chloe M.",
         date: "2024-03-01",
     },
     {
@@ -149,7 +149,7 @@ export const Reviews = [
         itemID: 7,
         description: "Okay for the price, but stitching could be better.",
         score: 3,
-        name: "Sebastian Cox",
+        name: "Sebastian C.",
         date: "2024-03-09",
     },
     {
@@ -158,7 +158,7 @@ export const Reviews = [
         itemID: 8,
         description: "Fits well and stylish. I like it!",
         score: 4,
-        name: "Layla Ward",
+        name: "Layla W.",
         date: "2024-03-14",
     },
     {
@@ -167,7 +167,7 @@ export const Reviews = [
         itemID: 8,
         description: "Washes well and keeps shape.",
         score: 4.5,
-        name: "Aiden Perry",
+        name: "Aiden P.",
         date: "2024-03-20",
     },
     {
@@ -176,7 +176,7 @@ export const Reviews = [
         itemID: 9,
         description: "Too basic for my taste, but not bad.",
         score: 3,
-        name: "Grace Bailey",
+        name: "Grace B.",
         date: "2024-03-28",
     },
     {
@@ -185,7 +185,7 @@ export const Reviews = [
         itemID: 9,
         description: "Soft and breathable. Great for summer.",
         score: 4.5,
-        name: "Jack Mitchell",
+        name: "Jack M.",
         date: "2024-04-04",
     },
     {
@@ -194,7 +194,7 @@ export const Reviews = [
         itemID: 10,
         description: "Exactly what I was looking for.",
         score: 4,
-        name: "Scarlett Hughes",
+        name: "Scarlett H.",
         date: "2024-04-10",
     },
     {
@@ -203,16 +203,7 @@ export const Reviews = [
         itemID: 10,
         description: "A little overpriced for the quality.",
         score: 3.5,
-        name: "Daniel Foster",
-        date: "2024-04-17",
-    },
-    {
-        id: 27,
-        category: "tops",
-        itemID: 10,
-        description: "A little overpriced for the quality.",
-        score: 3.5,
-        name: "Daniel Foster",
+        name: "Daniel F.",
         date: "2024-04-17",
     },
 
@@ -222,7 +213,7 @@ export const Reviews = [
         itemID: 11,
         description: "Solid pair of jeans. Fits well and feels durable.",
         score: 4,
-        name: "Natalie Brooks",
+        name: "Natalie B",
         date: "2024-04-22",
     },
     {
@@ -231,7 +222,7 @@ export const Reviews = [
         itemID: 11,
         description: "Nice style, but the waist is a bit tight.",
         score: 3.5,
-        name: "Connor Hayes",
+        name: "Connor H.",
         date: "2024-04-28",
     },
     {
@@ -240,7 +231,7 @@ export const Reviews = [
         itemID: 12,
         description: "Perfect everyday jeans. Very comfortable and stretchy.",
         score: 4.5,
-        name: "Sienna Flores",
+        name: "Sienna F.",
         date: "2024-05-02",
     },
     {
@@ -249,7 +240,7 @@ export const Reviews = [
         itemID: 12,
         description: "Not bad, but I expected a darker wash.",
         score: 3.5,
-        name: "Dylan Parker",
+        name: "Dylan P.",
         date: "2024-05-08",
     },
     {
@@ -258,7 +249,7 @@ export const Reviews = [
         itemID: 13,
         description: "Light and breathable—great for hot days.",
         score: 4.5,
-        name: "Hailey Rivera",
+        name: "Hailey R.",
         date: "2024-05-12",
     },
     {
@@ -267,7 +258,7 @@ export const Reviews = [
         itemID: 13,
         description: "Good fit but a little short for my taste.",
         score: 3,
-        name: "Owen Bell",
+        name: "Owen B.",
         date: "2024-05-18",
     }
 

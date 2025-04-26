@@ -1,11 +1,11 @@
-import { Carousel } from './Carousel'
 import { ItemCard } from './ItemCard'
 import { CategoryDisplay } from './CategoryDisplay'
+import { ReviewCard } from './ReviewCard'
 
 export { 
-    Carousel,
     ItemCard,
-    CategoryDisplay
+    CategoryDisplay,
+    ReviewCard
 
  }
 

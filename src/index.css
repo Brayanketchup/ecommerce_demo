@@ -7,8 +7,6 @@
 }
 
 
-
-
 @keyframes slide {
   0% {
     transform: translateX(0%);
@@ -19,5 +17,9 @@
 }
 
 .animate-slide {
-  animation: slide 15s linear infinite;
+  animation: slide 10s linear infinite;
+}
+
+.animate-slide-reviews {
+  animation: slide 90s linear infinite;
 }

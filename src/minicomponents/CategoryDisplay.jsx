@@ -9,11 +9,7 @@ export const CategoryDisplay = ({ data, title }) => {
       <div className="flex gap-6 justify-around flex-wrap">
         {data.slice(0, 4).map((item) => (
           <ItemCard key={item.id}
-            tittle={item.tittle}
-            rating={item.rating}
-            img={item.image}
-            price={item.price}
-            discount={item.discount}
+          item={item}
           />
         ))}
       </div>

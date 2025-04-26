@@ -14,6 +14,7 @@ import casual from './casual.png';
 import formal from './formal.png';
 import gym from './gym.png';
 import party from './party.png';
+import email from './email.png';
 
 
 
@@ -35,4 +36,5 @@ export {
     formal,
     gym,
     party,
+    email
 };
