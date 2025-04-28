@@ -6,8 +6,8 @@ import { Navbar, Footer } from './components';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar/>
+    
     <App />
-    <Footer/>
+    
   </StrictMode>,
 )

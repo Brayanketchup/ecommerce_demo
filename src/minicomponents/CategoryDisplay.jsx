@@ -2,12 +2,13 @@ import React from 'react'
 import { TopsData } from '../constants'
 import { ItemCard } from './ItemCard'
 
-export const CategoryDisplay = ({ data, title }) => {
+export const CategoryDisplay = ({ data, title, limit }) => {
   return (
     <div className='py-5'>
       <h1 className="text-4xl font-bold mb-4 text-center">{title}</h1>
       <div className="flex gap-6 justify-around flex-wrap">
-        {data.slice(0, 4).map((item) => (
+        {
+        data.slice(0, limit).map((item) => (
           <ItemCard key={item.id}
           item={item}
           />

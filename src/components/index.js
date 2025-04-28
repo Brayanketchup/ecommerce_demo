@@ -4,6 +4,7 @@ import { Hero } from './Hero'
 import { BrowseCategories } from './BrowseCategories'
 import { ReviewsCarousel } from './ReviewsCarousel'
 import { BrandsCarousel } from './BrandsCarousel'
+import { ProductInfo } from './ProductInfo'
 
 export {
     Navbar,
@@ -11,7 +12,8 @@ export {
     Hero,
     BrandsCarousel,
     BrowseCategories,
-    ReviewsCarousel
+    ReviewsCarousel,
+    ProductInfo,
 
 
 }
