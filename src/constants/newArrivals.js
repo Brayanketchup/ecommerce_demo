@@ -12,6 +12,7 @@ export const NewArrivals = [
         color: "Green",
         rating: 5.0,
         discount: 20,
+        slug: 'products/tops/'
     },
     {
         id: 5,
@@ -25,6 +26,7 @@ export const NewArrivals = [
         color: "Orange",
         rating: 4.5,
         discount: 0,
+        slug: 'products/tops/'
     },
     {
         id: 9,
@@ -38,6 +40,7 @@ export const NewArrivals = [
         color: "Pink",
         rating: 4.5,
         discount: 0,
+        slug: 'products/tops/'
     },
     {
         id: 11,
@@ -46,11 +49,12 @@ export const NewArrivals = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, praesentium corporis omnis non rerum nobis eos dicta, laborum",
         price: 59.99,
         image: "/jeans1.png",
-        category: ["new arrival", "discount", "jeans"],
+        category: ["new arrival", "discount", "jeans", "casual"],
         style: "Casual",
         color: "Blue",
         rating: 3.5,
         discount: 20,
+        slug: 'products/bottoms/'
     }, 
     {
         id: 13,
@@ -59,11 +63,12 @@ export const NewArrivals = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, praesentium corporis omnis non rerum nobis eos dicta, laborum",
         price: 29.99,
         image: "/shorts1.png",
-        category: ["new arrival", "shorts", "top selling"],
+        category: ["new arrival", "shorts", "top selling", "casual"],
         style: "Casual",
         color: "Blue",
         rating: 4.0,
         discount: 0,
+        slug: 'products/bottoms/'
     }
 
 

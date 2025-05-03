@@ -1,5 +1,6 @@
 import React from 'react'
 import { casual, formal, gym, party } from '../assets'
+import { Link } from 'react-router-dom'
 
 export const BrowseCategories = () => {
   return (
@@ -9,26 +10,26 @@ export const BrowseCategories = () => {
         <div className='flex flex-col gap-4 justify-center items-center'>
 
           <div className='flex md:flex-row flex-col gap-6 '>
-            <a href="/" className='inline-block relative hover:scale-105 transition-all duration-500 h-[150px] md:h-full'>
+            <Link to="/products/casual" className='inline-block relative hover:scale-105 transition-all duration-500 h-[150px] md:h-full'>
               <img src={casual} alt="casual category image" className='rounded-2xl w-full h-[150px] md:h-full object-cover  object-top-right' />
               <span className='absolute top-0 p-5 font-bold'>Casual</span>
-            </a>
-            <a href="/" className='relative hover:scale-105 transition-all duration-500 h-[150px] md:h-full'>
+            </Link>
+            <Link to="/products/formal" className='relative hover:scale-105 transition-all duration-500 h-[150px] md:h-full'>
               <img src={formal} alt="formal category image" className='rounded-2xl w-full h-[150px] md:h-full object-cover object-top-right' />
               <span className='absolute top-0 p-5 font-bold'>Formal</span>
-            </a>
+            </Link>
           </div>
 
           <div className='flex md:flex-row flex-col gap-4'>
-            <a href="/" className='relative hover:scale-105 transition-all duration-500 h-[150px] md:h-full'>
+            <Link to="/products/party" className='relative hover:scale-105 transition-all duration-500 h-[150px] md:h-full'>
               <img src={party} alt="party category image" className='rounded-2xl w-full h-[150px] md:h-full object-cover object-top-right' />
               <span className='absolute top-0 p-5 font-bold'>Party</span>
 
-            </a>
-            <a href="/" className='inline-block relative hover:scale-105 transition-all duration-500 h-[150px] md:h-full'>
+            </Link>
+            <Link to="/products/gym" className='inline-block relative hover:scale-105 transition-all duration-500 h-[150px] md:h-full'>
               <img src={gym} alt="gym category image" className='rounded-2xl w-full h-[150px] md:h-full object-cover  object-top-right' />
               <span className='absolute top-0 p-5 font-bold'>Gym</span>
-            </a>
+            </Link>
           </div>
 
         </div>

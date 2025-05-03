@@ -1,11 +1,14 @@
 import React from 'react'
 import { star, half_star } from '../assets'
+import { Link } from 'react-router-dom'
 
 
 export const ItemCard = ( { item }) => {
+  
   return (
-    <div className='flex flex-col justify-center w-[200px]'>
+    <Link className='flex flex-col justify-center w-[200px]' to={`/${item.slug}${item.id}`} >
       <img src={item.image} alt="shirt" className='object-contain rounded-2xl' />
+      
       <h2 className='font-semibold pt-2'>{item.tittle}</h2>
       <div className='flex flex-row items-center'>
 
@@ -27,6 +30,6 @@ export const ItemCard = ( { item }) => {
         ) : (
           <span className='font-semibold'>${item.price.toFixed(2)}</span>
         )}
-    </div>
+    </Link>
   )
 }

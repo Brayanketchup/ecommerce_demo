@@ -17,13 +17,13 @@ export const Home = () => {
       <Hero />
       <BrandsCarousel/>
       <CategoryDisplay
-        title='New Arrivals'
+        tittle='New Arrivals'
         data={NewArrivals}
         limit={4}
       />
       <div className='flex justify-self-center content-none w-[90vw] h-[2px] bg-gray-100 my-4' />
       <CategoryDisplay
-        title='Top Selling'
+        tittle='Top Selling'
         data={TopSelling}
         limit={4}
       />

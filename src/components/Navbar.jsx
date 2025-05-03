@@ -1,5 +1,7 @@
 import { React, useState, useEffect } from 'react'
 import { cart, down_arrow, profile, search } from '../assets';
+import { NavLink } from 'react-router-dom';
+
 
 
 export const Navbar = () => {
@@ -57,19 +59,19 @@ export const Navbar = () => {
         <div className='flex flex-row gap-15 px-5 w-full items-center justify-center' >
           <ul className='flex flex-row gap-5 text-normal'>
             <li>
-              <a href="/" className='flex flex-row text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>
+              <NavLink to="products/shop" className='flex flex-row text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>
                 Shop
-                <img src={down_arrow} alt="arrow down logo" className='w-3 h-3 self-center' />
-              </a>
+                {/* <img src={down_arrow} alt="arrow down logo" className='w-3 h-3 self-center' /> */}
+              </NavLink>
             </li>
             <li>
-              <a href="/" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>On Sale</a>
+              <NavLink to="products/onsale" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>On Sale</NavLink>
             </li>
             <li>
-              <a href="/" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>New Arrivals</a>
+              <NavLink to="products/newarrivals" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>New Arrivals</NavLink>
             </li>
             <li>
-              <a href="/" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>Brands</a>
+              <NavLink to="/" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>Home</NavLink>
             </li>
           </ul>
           <div className=' bg-gray-300 flex flex-row px-5 rounded-full'>
@@ -77,12 +79,14 @@ export const Navbar = () => {
             <textarea name="searchbar" id="searchbar" placeholder='Search for products...' className='resize-none content-center'></textarea>
           </div>
           <div className='flex flex-row gap-2 '>
-            <a href="/">
+            <NavLink to="/cart">
+            
               <img src={cart} alt="cart icon" className='object-contain h-[80%]' />
-            </a>
-            <a href="/">
+            
+            </NavLink>
+            <NavLink to="/">
               <img src={profile} alt="Profile icon" className='object-contain h-[80%]' />
-            </a>
+            </NavLink>
           </div>
         </div>
       </nav>
@@ -97,19 +101,19 @@ export const Navbar = () => {
         <div className='flex flex-row h-7 gap-10 px-5 w-full items-center justify-center z-10' >
           <ul className='flex flex-row gap-3 text-normal'>
             <li>
-              <a href="/" className='flex flex-row text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>
+              <NavLink to="products/shop" className='flex flex-row text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>
                 Shop
-                <img src={down_arrow} alt="arrow down logo" className='w-3 h-3 self-center' />
-              </a>
+                {/* <img src={down_arrow} alt="arrow down logo" className='w-3 h-3 self-center' /> */}
+              </NavLink>
             </li>
             <li>
-              <a href="/" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>On Sale</a>
+              <NavLink to="products/onsale" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>On Sale</NavLink>
             </li>
             <li>
-              <a href="/" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>New Arrivals</a>
+              <NavLink to="products/newarrivals" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>New Arrivals</NavLink>
             </li>
             <li>
-              <a href="/" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>Brands</a>
+              <NavLink to="/" className='text-black hover:opacity-60 opacity-100 transition-opacity duration-300'>Home</NavLink>
             </li>
           </ul>
           
@@ -125,12 +129,12 @@ export const Navbar = () => {
           </div>
 
           <div className='flex flex-row gap-2 '>
-            <a href="/">
+            <NavLink to="/cart">
               <img src={cart} alt="cart icon" className='object-contain h-[20px]' />
-            </a>
-            <a href="/">
+            </NavLink>
+            <NavLink to="/">
               <img src={profile} alt="Profile icon" className='object-contain h-[20px]' />
-            </a>
+            </NavLink>
           </div>
         </div>
       </nav>
@@ -157,12 +161,12 @@ export const Navbar = () => {
           </div>
 
           <div className='flex flex-row gap-2 p-1 '>
-            <a href="/">
+            <NavLink to="/cart">
               <img src={cart} alt="cart icon" className='object-contain h-[20px]' />
-            </a>
-            <a href="/">
+            </NavLink>
+            <NavLink to="/">
               <img src={profile} alt="Profile icon" className='object-contain h-[20px]' />
-            </a>
+            </NavLink>
           </div>
         </div>
       </nav>
@@ -171,19 +175,19 @@ export const Navbar = () => {
       <div className={`absolute left-0 border-2 bg-white border-cyan-800 p-5 rounded-r-4xl w-fit h-fit content-center transition-transform duration-500 ease-in-out ${hamburgerIsOpen ? 'translate-x-0' : '-translate-x-full'} `}>
         <ul className='flex justify-center items-center flex-col gap-5 text-normal'>
           <li className={` transition-transform duration-200 ease-in-out delay-100 ${hamburgerIsOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-            <a href="/" className={`flex flex-row text-black hover:opacity-60 opacity-100 transition-all duration-300`}>
+            <NavLink to="products/shop" className={`flex flex-row text-black hover:opacity-60 opacity-100 transition-all duration-300`}>
               Shop
-              <img src={down_arrow} alt="arrow down logo" className='w-3 h-3 self-center' />
-            </a>
+              {/* <img src={down_arrow} alt="arrow down logo" className='w-3 h-3 self-center' /> */}
+            </NavLink>
           </li>
           <li className={` transition-transform duration-200 ease-in-out delay-200 ${hamburgerIsOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-            <a href="/" className={`text-black hover:opacity-60 opacity-100 transition-hover duration-300`}>On Sale</a>
+            <NavLink to="products/onsale" className={`text-black hover:opacity-60 opacity-100 transition-hover duration-300`}>On Sale</NavLink>
           </li>
           <li className={` transition-transform duration-200 ease-in-out delay-300 ${hamburgerIsOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-            <a href="/" className={`text-black hover:opacity-60 opacity-100 transition-hover duration-300`}>New Arrivals</a>
+            <NavLink to="products/newarrivals" className={`text-black hover:opacity-60 opacity-100 transition-hover duration-300`}>New Arrivals</NavLink>
           </li>
           <li className={` transition-transform duration-200 ease-in-out delay-400 ${hamburgerIsOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-            <a href="/" className={`text-black hover:opacity-60 opacity-100 transition-hover duration-300`}>Brands</a>
+            <NavLink to="/" className={`text-black hover:opacity-60 opacity-100 transition-hover duration-300`}>Home</NavLink>
           </li>
         </ul>
       </div>
@@ -192,3 +196,5 @@ export const Navbar = () => {
     </header>
   )
 }
+
+

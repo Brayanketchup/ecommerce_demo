@@ -6,11 +6,12 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 49.99,
         image: "/shirt1.png",
-        category: ["new arrival", "shirt", "discount", "top selling"],
+        category: ["new arrival", "shirt", "discount", "top selling", "formal"],
         style: "Formal",
         color: "Green",
         rating: 5.0,
         discount: 20,
+        slug: 'products/tops/'
     },
     {
         id: 2,
@@ -19,11 +20,12 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 39.99,
         image: "/shirt2.png",
-        category: ["shirt"],
+        category: ["shirt", 'party'],
         style: "Casual",
         color: "Black",
         rating: 4.5,
         discount: 0,
+        slug: 'products/tops/'
     },
     {
         id: 3,
@@ -32,11 +34,12 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 49.99,
         image: "/shirt3.png",
-        category: ["shirt"],
+        category: ["shirt", 'party', 'casual'],
         style: "Casual",
         color: "Orange",
         rating: 4.0,
         discount: 0,
+        slug: 'products/tops/'
     },
     {
         id: 4,
@@ -45,11 +48,12 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 29.99,
         image: "/shirt4.png",
-        category: ["shirt", "top selling"],
+        category: ["shirt", "top selling", 'party', 'formal'],
         style: "Formal",
         color: "Red",
         rating: 4.5,
         discount: 0,
+        slug: 'products/tops/'
     },
     {
         id: 5,
@@ -58,11 +62,12 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 39.99,
         image: "/shirt5.png",
-        category: ["new arrival", "shirt"],
+        category: ["new arrival", "shirt", 'casual'],
         style: "Casual",
         color: "Orange",
         rating: 4.5,
         discount: 0,
+        slug: 'products/tops/'
     },
     {
         id: 6,
@@ -71,11 +76,12 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 39.99,
         image: "/shirt6.png",
-        category: ["shirt", "discount"],
+        category: ["shirt", "discount", 'party'],
         style: "Casual",
         color: "Green",
         rating: 4.5,
         discount: 40,
+        slug: 'products/tops/'
     },
     {
         id: 7,
@@ -84,11 +90,12 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 49.99,
         image: "/shirt7.png",
-        category: ["shirt"],
+        category: ["shirt", 'party'],
         style: "Casual",
         color: "Blue",
         rating: 4.0,
         discount: 0,
+        slug: 'products/tops/'
     },
     {
         id: 8,
@@ -97,11 +104,12 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 49.99,
         image: "/shirt8.png",
-        category: ["shirt", "top selling"],
+        category: ["shirt", "top selling", 'casual'],
         style: "Casual",
         color: "White",
         rating: 3.5,
         discount: 0,
+        slug: 'products/tops/'
     },
     {
         id: 9,
@@ -110,11 +118,12 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 49.99,
         image: "/shirt9.png",
-        category: ["new arrival", "shirt", "top selling"],
+        category: ["new arrival", "shirt", "top selling", 'casual'],
         style: "Casual",
         color: "Pink",
         rating: 4.5,
         discount: 0,
+        slug: 'products/tops/'
     },
     {
         id: 10,
@@ -123,10 +132,11 @@ export const TopsData = [
         size: ["S", "M", "L", "XL"],
         price: 59.99,
         image: "/shirt10.png",
-        category: ["shirt"],
+        category: ["shirt", 'casual'],
         style: "Casual",
         color: "white",
         rating: 5.0,
         discount: 0,
+        slug: 'products/tops/'
     },
 ]

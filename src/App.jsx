@@ -1,38 +1,59 @@
 import { react } from 'react'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home, ProductTops } from './pages';
+import {
+  Home,
+  ProductTopID,
+  ProductBottomID,
+  ProductBottomCategory,
+  ProductTopCategory,
+  ProductCategoryCasual,
+  ProductCategoryFormal,
+  ProductCategoryGym,
+  ProductCategoryParty,
+  ProductCategoryOnSale,
+  ProductCategoryNewArrivals,
+  ProductShop,
+  Cart
+} from './pages';
 import { Navbar, Footer } from './components';
+import { CartProvider } from './context/CartContext'
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <main className='pt-24'>
-        <Router>
-          <Routes>
-            <Route path="/" element={<Home />} />
+      <Router>
+        <Navbar />
+        <main className='py-20'>
 
-            {/* <Route path="/products" element={<Products />} /> */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products/tops/:id" element={<ProductTopID />} />
+          <Route path="/products/tops" element={<ProductTopCategory />} />
 
-            <Route path="/products/tops" element={<ProductTops />} />
-            <Route path="/products/tops/:id" element={<ProductTops />} />
-            
-            {/* <Route path="/products/bottoms" element={<ProductTops />} />
-            <Route path="/products/bottoms/:id" element={<ProductTops />} /> */}
+          <Route path="/products/bottoms/:id" element={<ProductBottomID />} />
+          <Route path="/products/bottoms" element={<ProductBottomCategory />} />
 
 
-            {/* <Route path="/product/buttoms/:id" element={<Product />} /> */}
-            {/* <Route path="/about" element={<About />} /> */}
-            {/* <Route path="/contact" element={<Contact />} /> */}
-            {/* <Route path="/projects" element={<Projects />} /> */}
-            {/* <Route path='/project/:id' element={<Project />} /> */}
-            {/* <Route path="*" element={<NotFound />} /> */}
-          </Routes>
-        </Router>
-      </main>
+          <Route path="/products/casual" element={<ProductCategoryCasual />} />
+          <Route path="/products/formal" element={<ProductCategoryFormal />} />
+          <Route path="/products/gym" element={<ProductCategoryGym />} />
+          <Route path="/products/party" element={<ProductCategoryParty />} />
+          <Route path="/products/onsale" element={<ProductCategoryOnSale />} />
+          <Route path="/products/newarrivals" element={<ProductCategoryNewArrivals />} />
+          <Route path="/products/shop" element={<ProductShop />} />
+
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+        </main>
+
+      </Router>
+
       <Footer />
+      {/* </CartProvider> */}
+      {/* </main> */}
+      {/* <Footer /> */}
     </>
   )
 }
