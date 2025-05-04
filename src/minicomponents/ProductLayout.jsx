@@ -1,5 +1,4 @@
 import { Reviews } from '../constants'
-import { useState, React } from 'react'
 import { ProductInfo } from '../components'
 import { ReviewCard, CategoryDisplay } from '../minicomponents'
 import { Link } from 'react-router-dom'
@@ -10,7 +9,6 @@ export const ProductLayout = ( {id, ProductData } ) => {
       const product = ProductData.find(p => p.id === parseInt(id));
       const recomendations = ProductData.filter(p => p.id !== parseInt(id));
       const productReviews = Reviews.filter(r => r.itemID === parseInt(id));
-      const [amount, setAmount] = useState(1)
 
     
       if (!id || !product) {
@@ -57,7 +55,7 @@ export const ProductLayout = ( {id, ProductData } ) => {
             </div>
             <div>
               <CategoryDisplay
-                title='You Might Also Like'
+                tittle='You Might Also Like'
                 data={recomendations} />
             </div>
           </div>

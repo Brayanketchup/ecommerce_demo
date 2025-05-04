@@ -5,34 +5,6 @@ import { trash, promoTag } from '../assets'
 
 export const Cart = () => {
     const { cartItem, decreaseCartQuantity, increaseCartQuantity, removeFromCart } = useCart();
-    // const [orderSummary, setOrderSummary] = useState([])
-
-
-
-
-    // orderSummary : 
-    // {subtotal
-    // discountPercent
-    // discount
-    // deliveryFee
-    // total}
-
-
-    //  -- DATA --
-    //   category 
-    //   color 
-    //   description 
-    //   discount 
-    //   id 
-    //   image 
-    //   price 
-    //   quantity 
-    //   rating 
-    //   size 
-    //   slug 
-    //   style 
-    //   tittle 
-
 
     const orderSummary = useMemo(() => {
         const subtotal = cartItem.reduce(

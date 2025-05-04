@@ -10,23 +10,10 @@ export const ProductCategoryParty = () => {
   const allData = [ ...casualTops, ...casualBottoms]
 
 
-  //  id: number;
-  // tittle: string;
-  // description: string;
-  // size: string[];
-  // price: number;
-  // image: string;
-  // category: string[];
-  // style: string;
-  // color: string;
-  // rating: number;
-  // discount: number;
-  // slug: string;
-
   return (
     <CategoryDisplay
     data={allData}
-    tittle="Casual"
+    tittle="Party"
     />
 
 

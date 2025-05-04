@@ -13,7 +13,7 @@ export const Home = () => {
 
 
   return (
-    <section className='pt-20'>
+    <section >
       <Hero />
       <BrandsCarousel/>
       <CategoryDisplay

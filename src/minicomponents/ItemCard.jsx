@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export const ItemCard = ( { item }) => {
   
   return (
-    <Link className='flex flex-col justify-center w-[200px]' to={`/${item.slug}${item.id}`} >
+    <Link className='flex flex-col justify-center w-[200px] ease-in transition-transform duratino-300 hover:scale-105' to={`/${item.slug}${item.id}`} >
       <img src={item.image} alt="shirt" className='object-contain rounded-2xl' />
       
       <h2 className='font-semibold pt-2'>{item.tittle}</h2>

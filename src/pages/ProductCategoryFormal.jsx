@@ -12,7 +12,7 @@ export const ProductCategoryFormal = () => {
   return (
     <CategoryDisplay
     data={allData}
-    tittle="Casual"
+    tittle="Formal"
     />
 
 

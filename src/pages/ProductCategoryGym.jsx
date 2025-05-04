@@ -12,7 +12,7 @@ export const ProductCategoryGym = () => {
   return (
     <CategoryDisplay
     data={allData}
-    tittle="Casual"
+    tittle="Gym"
     />
 
 

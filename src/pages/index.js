@@ -9,8 +9,10 @@ import { ProductCategoryGym } from "./ProductCategoryGym"
 import { ProductCategoryParty } from "./ProductCategoryParty"
 import { ProductCategoryOnSale } from "./ProductCategoryOnSale"
 import { ProductCategoryNewArrivals } from "./ProductCategoryNewArrivals"
+import { ProductSearchByWord } from "./ProductSearchByWord"
 import { ProductShop } from "./ProductShop"
 import { Cart } from "./Cart"
+import { NotFound } from "./NotFound"
 
 
 export {
@@ -25,7 +27,9 @@ export {
     ProductCategoryParty,
     ProductCategoryOnSale,
     ProductCategoryNewArrivals,
+    ProductSearchByWord,
     ProductShop,
     Cart,
+    NotFound
     
 }
