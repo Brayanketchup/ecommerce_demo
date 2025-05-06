@@ -2,8 +2,6 @@ import React from 'react'
 import { ReviewCard } from '../minicomponents'
 import { Reviews } from '../constants'
 
-
-
 export const ReviewsCarousel = () => {   
     
     const duplicatedReviews = [...Reviews, ...Reviews];

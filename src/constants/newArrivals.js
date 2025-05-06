@@ -16,7 +16,7 @@ export const NewArrivals = [
     },
     {
         id: 5,
-        tittle: "Sleeve Striped T-hirt",
+        tittle: "Sleeve Striped T-shirt",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, praesentium corporis omnis non rerum nobis eos dicta, laborum",
         size: ["S", "M", "L", "XL"],
         price: 39.99,

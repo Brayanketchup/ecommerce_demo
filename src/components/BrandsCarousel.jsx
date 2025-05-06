@@ -3,7 +3,6 @@ import React from 'react';
 import { calvin_klein, gucci, prada, versace, zara, } from '../assets';
 
 
-
 export const BrandsCarousel = () => {
   const items = [calvin_klein, gucci, prada, versace, zara];
   const duplicatedItems = [...items, ...items];

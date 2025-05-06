@@ -4,8 +4,7 @@ import { useState } from 'react'
 import { useCart } from '../context/CartContext';
 
 export const ProductInfo = ({ product }) => {
-
-  const {cartItem, addToCart, decreaseCartQuantity, increaseCartQuantity} = useCart();
+  const { addToCart } = useCart();
 
   const [selectedSize, setSelectedSize] = useState("")
   const [selectedQuantity, setSelectedQuantity] = useState(1)

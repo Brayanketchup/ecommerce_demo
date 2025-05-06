@@ -1,5 +1,4 @@
 import React from 'react'
-import { TopsData } from '../constants'
 import { ItemCard } from './ItemCard'
 import { Link } from 'react-router-dom'
 

@@ -9,9 +9,6 @@ import { calvin_klein, gucci, prada, versace, zara, } from '../assets';
 
 
 export const Home = () => {
-  const items = [calvin_klein, gucci, prada, versace, zara];
-
-
   return (
     <section >
       <Hero />
